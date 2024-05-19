@@ -8,4 +8,9 @@ jobs:
         run: echo "3 + 5" | bc
       - name: sample mul
         run: echo "3 * 5" | bc
+  secondjob:
+    runs-on: ubuntu-latest 
+    steps:
+      - name: simple min
+        run: echo "5 - 3" | bc
       
