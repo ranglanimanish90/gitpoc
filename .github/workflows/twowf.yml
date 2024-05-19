@@ -1,0 +1,11 @@
+name: Second Workflow
+on: workflow_dispatch
+jobs:
+  firstjob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: sample add
+        run: echo "3 + 5" | bc
+      - name: sample mul
+        run: echo "3 * 5" | bc
+      
