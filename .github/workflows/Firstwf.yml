@@ -8,3 +8,8 @@ jobs:
         run: echo 'Hello world'
       - name: Print good bye
         run: echo 'good bye'
+  SecondJob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: do calc
+      - run: echo "3 + 5" | bc
