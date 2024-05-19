@@ -5,11 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print hello world
-        run: echo 'Hello world'
+        run: echo 'Hello world Again'
       - name: Print good bye
-        run: echo 'good bye'
-  SecondJob:
-    runs-on: ubuntu-latest
-    steps:
-      - name: do calc
-      - run: echo "3 + 5" | bc
+        run: echo 'good bye Again'
